@@ -1,0 +1,158 @@
+ *{
+    font-family: Futura Md BT;
+ }
+
+ @media screen and (max-width: 300px){
+    .main{
+        flex-direction: column;
+        width: 50%;
+        height: auto;
+    }
+    .left{
+        width: 100%;
+    }
+    .center{
+        width: 100%;
+    }
+    .right
+    {
+        width: 100%;
+    }
+ }
+ p{
+    font-size: 14.5px;
+ }
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    padding: 90px 0px 0px 0px;
+    width: 810px;
+    height: 450px;
+}
+.left{
+    background-color: #e28525;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 450px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px 40px 40px 40px;
+}
+.center{
+    background-color: #016972;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 450px;
+    color: white;
+    box-sizing: border-box;
+    padding: 30px 41px 30px 40px;
+}
+.right{
+    background-color: #00403f;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 450px;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px 33px 40px 40px;
+}
+#learn-sedan{
+    width: 110px;
+    height: 30px;
+    border-radius: 50px;
+    border: 3px solid white;
+    background: #fff;
+    margin-top: 30px;
+    padding: 7px; 
+    text-align: center;
+}
+#learn-sedan:hover{
+    background: none;
+}
+#learn-suv{
+    width: 110px;
+    height: 30px;
+    border-radius: 50px;
+    border: 3px solid white;
+    background: #fff;
+    margin-top: 30px;
+    padding: 7px; 
+    text-align: center;
+}
+#learn-suv:hover{
+    background: none;
+}
+#learn-luxury{
+    width: 110px;
+    height: 30px;
+    border-radius: 50px;
+    border: 3px solid white;
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 7px; 
+    text-align: center;
+}
+#learn-luxury:hover{
+    background: none;
+}
+#a-sedan {
+    text-decoration: none;
+    color: #e28525;
+}
+#a-sedan:hover {
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    transition: 0.7s;
+}
+#a-suv{
+    text-decoration: none;
+    color: #016972;
+}
+#a-suv:hover {
+    background: none;
+    color: white;
+    text-decoration: none;
+    transition: 0.s;
+}
+#a-luxury{
+    text-decoration: none;
+    color: #00403f;
+}
+#a-luxury:hover{
+    background: none;
+    color: white;
+    text-decoration: none;
+    transition: 0.7s;
+}
+img.sedan{
+    width: 80px;
+    height: auto;
+    padding: 15px 15px 10px 15px;
+}
+img.suv{
+    width: 80px;
+    height: auto;
+    padding: 15px 15px 10px 15px;
+}
+img.luxury{
+    width: 80px;
+    height: auto;
+    padding: 15px 15px 10px 15px;
+}
+h2{
+    font-family: Square721 Cn;
+}
